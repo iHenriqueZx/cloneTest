@@ -1,0 +1,177 @@
+/*Graphic*/
+#secSkills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://kom.nevercraft.com.br/img/options_background.png");
+    min-height: 300px;
+    border: 3px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+}
+#skills{
+    border: 5px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    width: 90rem;
+    padding: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#graphic{
+    text-align: center;
+}
+hr{
+    border: 2px solid gray;
+    border-image: url('https://kom.nevercraft.com.br/img/simpleborder.png') 2.84% stretch; 
+}
+#gerenciamento{
+    border: 3px solid gray;
+    background: linear-gradient(0.25turn, #ebf8e1, #f69d3c, #f69d3c);
+    background-size: 81% auto;
+    background-repeat: no-repeat;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    height: 2rem;
+    text-align: right;
+    padding-right: 21%;
+    padding-top: 1rem;
+} 
+#devJav{
+    border: 3px solid gray;
+    background: linear-gradient(0.25turn, #ebf8e1, #00c700, #00c700);
+    background-size: 92% auto;
+    background-repeat: no-repeat;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    height: 2rem;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 1rem;
+}
+#devWeb{
+    border: 3px solid gray;
+    background: linear-gradient(0.25turn, #ebf8e1, #108bf0, #108bf0);
+    background-size: 87% auto;
+    background-repeat: no-repeat;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    height: 2rem;
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 1rem;
+}
+#planMecJog{
+    border: 3px solid gray;
+    background: linear-gradient(0.25turn, #ebf8e1, #940000, #940000);
+    background-size: 96% auto;
+    background-repeat: no-repeat;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    height: 2rem;
+    text-align: right;
+    padding-right: 6%;
+    padding-top: 1rem;
+}
+/*Staff*/
+h2{
+    text-align: center;
+    margin: 2rem;
+}
+#ourTime{
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+@media (max-width: 1380px) {
+    #ourTime{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .box{
+        width: 10rem;
+    }
+}
+.box{
+    border: 2px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 2.84% stretch;
+    background-color: rgba(26, 26, 26, 0.349);
+    width: 20rem;
+    padding: 2rem;
+}
+.nick{
+    font-size: 25px;
+}
+/*Staff tags*/
+#diretorD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 74, 74, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#diretorR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 74, 74, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#diretorL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 74, 74, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#admB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74, 196, 115, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#coord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74, 141, 196, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#builder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 74, 196, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#criadorC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74, 141, 196, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.balanceador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74, 196, 115, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#programmer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 139, 74, 0.521);
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}

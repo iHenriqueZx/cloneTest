@@ -1,0 +1,51 @@
+<header>
+    <a routerLink=""><img src="https://kom.nevercraft.com.br/img/smalllogo.png" alt="Logo"></a>
+    <nav>
+        <ul>
+            <li><a routerLink="">Inicio</a></li>
+            <li class="discord"><a href="https://discord.com/invite/VNKvkuENuS" target=”_blank”>Discord</a></li>
+            <li><a routerLink="/loja">Loja</a></li>
+            <li><a href="https://knights-of-minecraft.fandom.com/pt-br/wiki/Knights_of_Minecraft_Wiki"
+                    target="_blank">Guia</a></li>
+            <li><a routerLink="/staff">Staff</a></li>
+            <li id="loginButton" (click)="openModal()">LOGIN</li>
+        </ul>
+    </nav>
+    <div #loginModal class="modal">
+        <div class="modal-content">
+            <span #closeButton class="close" (click)="closeModal()">&times;</span>
+            <h1>Login</h1>
+            <form action="">
+                <br>
+                <hr style="width: 100%;">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+                <div id="entrar">Entrar</div>
+                <a routerLink="/esqueci-minha-senha" id="esqueci">Esqueceu sua senha?</a>
+                <a id="registerButton" (click)="openRegister()">►</a>
+            </form>
+            <p>Não possuí uma conta? Arraste para o lado e crie uma!</p>
+        </div>
+    </div>
+    <div #registerModal class="modalS">
+        <div class="modal-contentS">
+            <span #closeButton class="close" (click)="closeRegister()">&times;</span>
+            <h1>Registre-se</h1>
+            <form action="">
+                <br>
+                <hr style="width: 100%;">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+                <label for="senhas">Confirme sua senha:</label>
+                <input type="password" id="senhas" required>
+                <div id="registrar">Registrar</div>
+                <a id="registerButtonS" (click)="back()">◀</a>
+            </form>
+            <p>Já possuí uma conta? Arraste para o lado e logue-se</p>
+        </div>
+    </div>
+</header>

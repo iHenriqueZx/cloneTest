@@ -1,0 +1,102 @@
+/*Primary Article*/
+h1{
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://kom.nevercraft.com.br/img/options_background.png");
+    min-height: 300px;
+    border: 3px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    text-align: center;
+}
+@media (min-width: 700px) {
+    .main-content {
+        width: 96.15%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+#borderTx{
+    border: 5px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+}
+#borderTx h2{
+    font-size: 14px;
+}
+#borderTx p{
+    font-size: 15px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+/*Wiki and Store*/
+hr{
+    border: 3px solid gray;
+    border-image: url('https://kom.nevercraft.com.br/img/simpleborder.png') 3.84% stretch; 
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+}
+aside{
+    float: right;
+}
+.Tt{
+    display: inline-block;
+    transition: transform 0.3s ease;
+    width: 10rem;
+}
+.Tt:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}
+.boxsone{
+    background-image: url("https://imgur.com/JoEYaPn.png");
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.boxsone:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 10rem;
+}
+#grid{
+    display: flex;
+    gap: 25rem;
+}
+@media (max-width: 900px) {
+    #grid{
+        display: inline;
+        gap: 0;
+    }
+}

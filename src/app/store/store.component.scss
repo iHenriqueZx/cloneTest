@@ -1,0 +1,86 @@
+article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20rem;
+    border: 5px solid gray;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+#login{
+    display: flex;
+    justify-content: center;
+    border: 5px solid gray;
+    width: 25rem;
+    border-image: url("https://kom.nevercraft.com.br/img/simpleborder.png") 3.84% stretch;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 2rem 7rem;
+}
+@media (max-width: 655px) {
+    #login{
+        padding: 2rem 2rem;
+    }
+}
+@media (max-width: 500px) {
+    #login{
+        width: 20rem;
+        padding: 2rem 0;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    border: none;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://imgur.com/ipJWDJ8.png");
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 2rem;
+}
+.button:hover{
+    cursor: pointer;
+}
+#category{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+.button2{
+    background-image: url("https://imgur.com/ipJWDJ8.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 1.5rem;
+}
+@media (max-width: 1220px) {
+    #category{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+.button2:hover{
+    cursor: pointer;
+}
+hr{
+    border: 3px solid gray;
+    border-image: url('https://kom.nevercraft.com.br/img/simpleborder.png') 2.84% stretch; 
+}
